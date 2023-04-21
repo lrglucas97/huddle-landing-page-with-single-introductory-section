@@ -1,0 +1,90 @@
+@media (max-width: 1416px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content .description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content .description .title,
+  .content .description .text {
+    text-align: center;
+  }
+
+  .content .description .button {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 376px) {
+  .header {
+    padding: 32px 0 58px;
+  }
+
+  .header .logo {
+    width: 129px;
+    margin-left: 32px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content .illustrations .mockup {
+    width: 302px;
+  }
+
+  .content .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 58px;
+  }
+
+  .content .description .title {
+    text-align: center;
+    font-size: 2.4rem;
+    width: 310px;
+    margin-bottom: 14px;
+  }
+
+  .content .description .text {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 24.5px;
+    width: 300px;
+    margin-bottom: 23px;
+  }
+
+  .content .description .button {
+    padding: 12px 75px 9px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 65px 0px 39px;
+  }
+
+  .fa-facebook-f {
+    padding: 6px 8.4px;
+  }
+
+  .fa-twitter {
+    padding: 6px;
+  }
+
+  .fa-instagram {
+    padding: 6px 6.8px;
+  }
+}
